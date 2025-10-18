@@ -71,4 +71,4 @@ O script realiza transformações inline durante a importação para garantir a 
 | **Orders** | `OrderDate` | Converte a string da data para o formato `DATE`, usando o padrão `%d/%m/%Y`. | `set OrderDate = str_to_date(@OrderData, "%d/%m/%Y");` | |
 | **Employees** | `BirthDate` | Converte a string da data de nascimento para o formato `DATE`, usando o padrão `%d/%m/%Y`. | `set BirthDate = str_to_date(@BirthDate,"%d/%m/%Y");` | |
 
-**Importante:** Ao importar, deve-se verificar se o formato do seu arquivo CSV corresponde ao formato da tabela do banco de dados. A ordem e os tipos de dados das colunas no arquivo CSV devem corresponder à estrutura da tabela.
+
